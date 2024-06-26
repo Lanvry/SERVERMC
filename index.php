@@ -9,9 +9,13 @@
     <title>XIRPL Server</title>
 </head>
 <body>
+    <div id="port-page">
+        <center><div class="navigation" onclick="creeperclose()"></div></center>
+        <iframe src="131742" frameborder="0"></iframe>
+    </div>
     <nav class="navigation">
         <h3><b>Survival<text>CORE</text></b></h3>
-        <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Userbox_creeper.svg/2048px-Userbox_creeper.svg.png" class="logo" alt=""></div>
+        <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Userbox_creeper.svg/2048px-Userbox_creeper.svg.png" class="logo" onclick="creeper()" alt=""></div>
     </nav>
 
     <div class="card">
