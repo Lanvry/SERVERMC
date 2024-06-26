@@ -1,0 +1,109 @@
+:root {
+    --white: #f8f8ff;
+    --secondColor: #3cb02c;
+    --secondColorDark: #2a7c1f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    border-bottom: 1px solid grey;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.navigation h3 {
+    color: var(--secondColor);
+}
+
+.navigation h3 text {
+    color: black;
+}
+
+ion-icon {
+    position: relative;
+    top: 2px;
+}
+
+.status {
+    background-color: var(--secondColor);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+    top: -10px;
+}
+
+.logo {
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 10px;
+}
+
+#pingResults {
+    background-color: #3cb02c;
+    width: fit-content;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.144);
+    margin: 10px 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+pre {
+    margin-left: -100px;
+    padding-left: 10px;
+}
+
+.download {
+    background-color: var(--secondColor);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: bold;
+}
+.download:hover{
+    background-color: var(--secondColorDark);
+}
+@media only screen and (max-width: 600px) {
+    .card {
+        background-color: white;
+        box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.144);
+        margin: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .logo {
+        height: 40px;
+        border-radius: 5px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        margin: 5px;
+    }
+  }
