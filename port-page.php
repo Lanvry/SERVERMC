@@ -13,11 +13,29 @@
             height: 200px;
             margin-bottom: 10px;
         }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input{
+            background-color: #3cb02c;
+            color:white;
+            padding: 10px;
+            border: 0px;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            font-size: 20px;
+            position: relative;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.124);
+        }
     </style>
 </head>
 <body>
     <h1><b>Port</b></h1>
-    <textarea id="textInput"></textarea>
+    <center><input id="textInput" type="text"></input><br></center>
     <button onclick="saveText()">Save Changes</button>
     <div id="status"></div>
 

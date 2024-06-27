@@ -63,6 +63,7 @@ function creeper() {
         document.getElementById("port-page").style.display = "block";
         setTimeout(() => {
             document.getElementById("port-page").style.bottom = "0px";
+            document.getElementById("body").style.transform = "scale(0.9)"
             document.body.style.overflow = "hidden";
         }, 100);
         x = 0;
@@ -71,6 +72,7 @@ function creeper() {
 function creeperclose() {
     x = 0;
     document.getElementById("port-page").style.bottom = "-700px";
+    document.getElementById("body").style.transform = "scale(1)"
     document.body.style.overflow = "auto";
     setTimeout(() => {
         document.getElementById("port-page").style.display = "none";
