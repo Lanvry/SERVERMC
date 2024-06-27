@@ -3,7 +3,7 @@
 $data = json_decode(file_get_contents('php://input'), true);
 
 // File path (adjust as needed)
-$filePath = '../port.txt';
+$filePath = 'port.txt';
 
 // Write the new text to the file
 file_put_contents($filePath, $data['text']);
